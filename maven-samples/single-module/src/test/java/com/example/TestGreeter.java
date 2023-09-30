@@ -34,6 +34,11 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
+  
+  @Test
+  publict void invalidTestCase(){
+    assertTrue(true);
+  }
 
     @Test
   public void greetShouldIncludeGreetingMessage() {
