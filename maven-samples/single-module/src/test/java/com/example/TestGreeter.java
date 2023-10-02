@@ -43,6 +43,7 @@ public class TestGreeter {
   }
   @Test
   public void intendedFailureTestCase(){
+    String anchor = "World";
     assertThat(false);
   }
 }
