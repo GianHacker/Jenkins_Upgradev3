@@ -41,10 +41,10 @@ public class TestGreeter {
 
     assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
   }
-/*  @Test
+ @Test
   public void intendedFailureTestCase(){
     String anchor = "World";
     assertThat(true);
   }
-  */
+ 
 }
